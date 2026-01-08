@@ -2,15 +2,15 @@ const number =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 const result = number.reduce((natija,number)=>{
     return natija+number;
 });
-const friend =["Nazanin","Rihan","Yasamin","Msoda","Moubarika","Rihan","Msoda"];
+const friend =["Nazanin","Rihan","Yasamin","Msoda","Kubra","Rihan","Msoda"];
 const result1 = friend.reduce((acc,friends)=>{
     acc[friends]= (acc[friends] || 0)+ 1;
     return acc
 },{});
-const jomla=["Hello","Everyone","My","Name","Is","Msoda","And","Iam","Stuend","At","Sharifi","Proggraming","Acadimy."];
+const jomla=["Hi","Everyone","My","Name","Is","Msoda","And","Iam","Stuend","At","Sharifi","Proggraming","Acadimy."];
 const result2 = jomla.join(" ");
 const shift= [1,2,3,4,5,6,7,8,9,10];
-let stuend =["Msoda","Arifa","Shgol"];
+let stuend =["Maqsuda","Arifa","Shagol"];
 const result3 = stuend.some((stuends)=>{
     return stuends.includes("a");
 });
