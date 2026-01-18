@@ -78,11 +78,20 @@
 
 
 
+// const number1 = Number(prompt("please enter a number"));
+// const number2 = Number(prompt("please enter you namber2"));
+// const opretore = prompt("plese enter your kraktar")
+// if(opretore ==="/") console.log(number1/number2);
+// else if(opretore ==="*") console.log(number1*number2);
+// else if(opretore ==="+") console.log(number1+number1);
+// else console.log("عملگر معتبر نیست");
 
 
 
+// const number1 = Number(prompt("please enter a number"));
+// const number2 = Number(prompt("please enter you namber2"));
+// const opretore = prompt("plese enter your kraktar");
+// const result = opretore ==="*"? number1*number2:opretore ==="/"?number1/number2:opretore ==="+"?number1+number2:opretore ==="-"?number1-number2: "عملگر معتبر نیست";
+// console.log(result);
 
-
-           
-        
 

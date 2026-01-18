@@ -93,6 +93,24 @@
 
 
 
+// const north = "north";
+// switch(north){
+//     case "north":
+//         console.log(" North please go up⬆️");
+//         break;
+//         case "south":
+//             console.log("South please go down⬇️⬇");
+//             break;
+//             case "east":
+//             console.log("East please go right➡️");
+//             break;
+//             case "west":
+//                 console.log("West please go left⬅️");
+//                 break;
+//                 default:
+//                     console.log("I don't know you're location")
+// };
+
 
 // const furet = prompt("enter your favorite frute")
 // switch (furet){
