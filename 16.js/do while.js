@@ -1,9 +1,9 @@
 // سوال اول
-// let i = 1 ;
-// while (i< 100) {
-//     console.log(i ** 2)
-//     i++
-// };
+let l= 1 ;
+while (l< 100) {
+    console.log(l ** 2)
+    l++
+};
 
 
 
