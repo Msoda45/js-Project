@@ -1,10 +1,10 @@
-const names = ["Msoda", "Nazanin", "Rihan"];
-names.splice(2, 1, 5, 9, 10);
-names.map((item, index) => {
+const name1 = ["Msoda", "Nazanin", "Rihan"];
+name1.splice(2, 1, 5, 9, 10);
+name1.map((item, index) => {
     console.log(index, item);
 })
 // forEach
-const maywa = ["Oreange", "peach", "Pear", "Banana"];
+const maywa = ["Apple", "barry", "Pear", "Banana"];
 maywa.forEach((item) => {
     console.log(item);
 })
