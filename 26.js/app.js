@@ -121,3 +121,6 @@ const result8 =`${Myname} ${lastName}`;
 // سوال نهم
 let join = ["I","Love","Apple"];
 const result9 = join.join().replaceAll(","," ");
+
+
+// سوال دهم
