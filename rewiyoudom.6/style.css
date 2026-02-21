@@ -1,0 +1,12 @@
+.a{
+    height: 300px;
+    width: 400px;;
+    margin: 0 auto;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.h1{
+   text-align: center;
+   font-size: 37px;
+   color: lightblue;
+}
