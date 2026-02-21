@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./public/output.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO App</title>
+    
+</head>
+<body>
+   <nav class="fixed top-0 left-0 w-full  shadow-2xl shadow-blue-100 rounded bg-blue-400/50 py-4 px-2.5 flex justify-between items-center">
+    <h1 class=" text-white text-3xl  mx-6 font-bold">لیست کار های روزمره</h1>
+    <button class="py-2 px-5 mx-6 text-2xl bg-white rounded text-gray-700 " id="adBtn">
+        اضافه کردن
+    </button>
+   </nav>
+   <div id="con" class="w-8/12  mx-auto h-screen hidden justify-center items-center">
+   <div class="w-full shadow-3xl shadow-blue-900 mx-auto ">
+   <h1
+    class="text-center py-5 rounded-t-xl text-white text-bold text-xl bg-blue-300">فورم اضافه کردن کار های روزمره</h1>
+    <form class="flex flex-col gap-2 border border-gray-300 p-6  rounded-b-xl shadow-xl shadow-gray-300">
+        <input class="border w-full py-2.5  px-6 rounded-full border-gray-600 text-xl  focus:ring-indigo-500 outline-0" type="text" id="todo" placeholder="امروز چی پلان دارید" class="">
+         <div id="error" class="hidden"></div>
+        <select id="order" class=" outline-0 py-2.5 px-6  w-full border border-gray-600 rounded-full">
+            <option value="important" class="checked:bg-blue-700 checked:-text-gray-200" >مهم</option>
+            <option value="mediocre"  class="checked:bg-blue-700 checked:-text-gray-200">متوسط</option>
+            <option value="optional"  class="checked:bg-blue-700 checked:-text-gray-200">اختیاری</option>
+        </select>
+        <button class="py-2 px-5 bg-blue-300 text-xl text-white rounded-full" id="sevebtn">ذخیره</button>
+    </form>
+   </div>
+   </div>
+   <div class="w-full p-4 flex flex-col my-24 items-center gap-3 mx-auto" id="todocon"></div>
+   <script src="app.js" defer ></script>
+</body>
+</html>

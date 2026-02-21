@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@layer components{
+    .aldivs {
+        @apply  py-3 px-5 w-9/12 max-w-4xl border rounded-md;
+    };
+    .im{
+        @apply h-4 w-4 rounded-full bg-red-500;
+    };
+    .normal{
+        @apply h-4 w-4 rounded-full bg-yellow-500;
+    };
+    .h1{
+        @apply text-2xl font-bold text-black;
+    };
+    .optional{
+        @apply h-4 w-4 rounded-full bg-green-500;
+    };
+};
