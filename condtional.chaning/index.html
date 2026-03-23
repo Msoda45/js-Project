@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="app.js"></script>
+    <script>
+        let name = "Msoda";
+        let age = 17;
+        let score = 99;
+        if(name.includes("a") && age > 16 &&score >=90)console.log("salam");
+        function User(name,lastName,age){
+            this.name = name;
+            this.lastName = lastName;
+            this.age = age;
+        }
+const user1 = new User("Msoda","Yawari",17);        
+const user2 = new User("Nargis","Rasoli",17);  
+// user2.hairColor = "yellow";    
+User.prototype.hairColor = "yellow"  
+    </script>
+</body>
+</html>
