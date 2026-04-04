@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.style{
+    height: 100vh;
+    width:100% ;
+    display: flex;
+}
+div.box{
+    height: 200px;
+    width: 200px;
+    border:1px solid black ;
+    border-radius: 9px;
+}
