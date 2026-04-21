@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > .box{
+    min-height: 80%;
+    width: 80%;
+    border: 3px solid black;
+    border-radius: 10%;
+    font-size: large;
+}
+.h1{
+    margin: 2px auto;
+    justify-content: center;
+    align-items: center;
+}
