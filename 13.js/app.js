@@ -1,41 +1,14 @@
-// truthy and falsy values
-const sentense1 = 19;
-const sentense2 = 21;
-if(sentense1){
-    console.log("Salam🫲");
+//loops
+for(let i =1; i<=12; i++){
+    console.log(i+ " * 1 ="+ i*1)
 }
-else{
-    console.log("Khoda Hafiz👋");
+console.log("________________________________________________________________________________________________")
+for(let i =1; i<=12; i++){
+    console.log(i+ " * 2 ="+ i*2)
 }
-const sentense3 = "";
-if(sentense3){
-    console.log("Salam🫲");
+console.log("________________________________________________________________________________________________")
+for(let i = 12; i>=1; i--){
+    console.log(i+ " * 3 ="+ i*3)
 }
-else{
-    console.log("Khoda Hafiz👋");
-}
-const sentense4 = "j";
-if(sentense4){
-    console.log("Salam🫲");
-}
-else{
-    console.log("Khoda Hafiz👋");
-}
-// const sentense5 = prompt("Please Enter Your Name");
-// const result5 = sentense5.trim()? "You Have Inserted
-//  a Name":"You Have Not Inserted a Name";
-// console.log(result5);
-const sentense6 = prompt("Please Enter Your Name");
-const name = sentense6.trim();
-if(name.length>2 && name.length<20){
-    console.log("You Entered a True Name");
-}
-else{
-    console.log("You Entered a Fales Name")
-}
-function add(...a){
-   return a.reduce((totle, sam)=>{
-        return totle+sam
-    },0);
-}
-add(1,2,3,4,5,6,7,8,9,10);
+console.log("__________________________________________________________________________________________________")
+for( let j = -1000;)
