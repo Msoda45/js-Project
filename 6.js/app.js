@@ -16,13 +16,13 @@ const name = "Msoda";
 const lastName ="Yawari";
 const age = 17;
 const natija =`youre name is ${name} and your last name is ${lastName} and your ${age} years old`
-// const scores =70;
-// if(scores >50){
-//     console.log("you passed")
-// }
-// else{
-//     console.log("you filiet")
-// }
+const scores =70;
+if(scores >50){
+    console.log("you passed")
+}
+else{
+    console.log("you filiet")
+}
 const nomra = 70;
 const number =nomra> 50? "you passed":"you filet"
 
