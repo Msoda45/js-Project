@@ -21,11 +21,12 @@ adBtn.addEventListener("click",()=>{
 sevebtn.addEventListener("click",(event)=>{
    event.preventDefault();
      sevebtn1();
-     todocontiner1.innerHTML = "";
+
      todoList.map(todo=>{
       showTodo(todo);
       con.classList.remove("flex")
      con.classList.add("hidden")
+     
      })
   
      if(masseg.length>0){

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./public/output.css">
@@ -9,24 +9,24 @@
 </head>
 <body>
    <nav class="fixed top-0 left-0 w-full  shadow-2xl shadow-blue-100 rounded bg-blue-400/50 py-4 px-2.5 flex justify-between items-center">
-    <h1 class=" text-white text-3xl  mx-6 font-bold">لیست کار های روزمره</h1>
+    <h1 class=" text-white text-3xl  mx-6 font-bold">Todo App</h1>
     <button class="py-2 px-5 mx-6 text-2xl bg-white rounded text-gray-700 " id="adBtn">
-        اضافه کردن
+ Add
     </button>
    </nav>
-   <div id="con" class="w-8/12  mx-auto h-screen hidden justify-center items-center">
+   <div id="con" class="w-8/12   mx-auto h-screen hidden justify-between items-center">
    <div class="w-full shadow-3xl shadow-blue-900 mx-auto ">
    <h1
-    class="text-center py-5 rounded-t-xl text-white text-bold text-xl bg-blue-300">فورم اضافه کردن کار های روزمره</h1>
+    class="text-center py-5 rounded-t-xl text-white text-bold text-xl bg-blue-300">Form Todo</h1>
     <form class="flex flex-col gap-2 border border-gray-300 p-6  rounded-b-xl shadow-xl shadow-gray-300">
-        <input class="border w-full py-2.5  px-6 rounded-full border-gray-600 text-xl  focus:ring-indigo-500 outline-0" type="text" id="todo" placeholder="امروز چی پلان دارید" class="">
+        <input class="border w-full py-2.5  px-6 rounded-full border-gray-600 text-xl  focus:ring-indigo-500 outline-0" type="text" id="todo" placeholder="What is your mind." class="">
          <div id="error" class="hidden"></div>
         <select id="order" class=" outline-0 py-2.5 px-6  w-full border border-gray-600 rounded-full">
-            <option value="important" class="checked:bg-blue-700 checked:-text-gray-200" >مهم</option>
-            <option value="mediocre"  class="checked:bg-blue-700 checked:-text-gray-200">متوسط</option>
-            <option value="optional"  class="checked:bg-blue-700 checked:-text-gray-200">اختیاری</option>
+            <option value="important" class="checked:bg-blue-700 checked:-text-gray-200" >Importend</option>
+            <option value="mediocre"  class="checked:bg-blue-700 checked:-text-gray-200">Normal</option>
+            <option value="optional"  class="checked:bg-blue-700 checked:-text-gray-200">Optional</option>
         </select>
-        <button class="py-2 px-5 bg-blue-300 text-xl text-white rounded-full" id="sevebtn">ذخیره</button>
+        <button class="py-2 px-5 bg-blue-300 text-xl text-white rounded-full" id="sevebtn">Save</button>
     </form>
    </div>
    </div>
