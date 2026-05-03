@@ -4,7 +4,7 @@ name(" hamida" , " yawari");
 function name(a,b) {
     console.log("Hello dear" + a + b)
 }
-// name(" hamida" , " yawari");
+// name(" msoda" , " yawari");
 
 // defult argument
 function sam(number1 ,number2  = 8) {
@@ -26,4 +26,4 @@ const gam =(number5,number6 = 90)=>{
     console.log(number5 +number6)
 }
 // hosting not work
-gam(330);
+gam(440);
