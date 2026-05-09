@@ -1,0 +1,23 @@
+div#box.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+    background-color: rgb(205, 146, 205);
+}
+.differnt-class{
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+    border: 4px solid saddlebrown;
+    background-image: linear-gradient(50deg, rgb(246, 200, 246) ,rgb(142, 60, 60) , rgb(178, 115, 125));
+}
+button{
+    height: 70px;
+    width:150px;
+    background-color: rgb(55, 233, 55);
+    color: white; 
+    margin: 3px 0;   
+}
+.b{
+    box-shadow:  9px 9px 10px rgb(14, 13, 13);
+}
