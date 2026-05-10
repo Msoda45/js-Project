@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.contner{
+    height: 100vh;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.box{
+    border: 2px solid black;
+    height: 150px;
+    width: 900px;
+    border-radius: 20%;
+}
+div.box > p{
+    margin: 20px 19px;
+}
+div.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 55px;
+    width: 120px;
+    border: none;
+    border-radius: 20%;
+    background-color: brown;
+}
